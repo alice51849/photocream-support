@@ -1,0 +1,18 @@
+# PhotoCream — official support
+
+> Official support, privacy, App Store, and guide links for PhotoCream.
+
+## Apps
+
+- [PhotoCream on the App Store](https://apps.apple.com/app/id6781808054)
+- [PhotoCream independent guide](https://alice51849.github.io/ios-app-guide/guides/photocream.html)
+
+## Support
+
+- [Official support site](https://alice51849.github.io/photocream-support/)
+- [Privacy policy](https://alice51849.github.io/photocream-support/privacy.html)
+- [Support and FAQ](https://alice51849.github.io/photocream-support/support.html)
+
+## Portfolio
+
+- [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
