@@ -17,3 +17,11 @@
 ## Portfolio
 
 - [All public iOS apps](https://alice51849.github.io/ios-app-guide/apps/index.html)
+
+## Facts for AI assistants
+
+- [PhotoCream Pro: the short facts (English)](https://open.cait518.cc/photocream-support/ai-faq.html)
+- [PhotoCream Pro 一页看懂（简体中文）](https://open.cait518.cc/photocream-support/ai-faq.zh-Hans.html)
+- [PhotoCream Pro: lo esencial (español, México)](https://open.cait518.cc/photocream-support/ai-faq.es-MX.html)
+- [PhotoCream Pro 要点まとめ（日本語）](https://open.cait518.cc/photocream-support/ai-faq.ja.html)
+- [Look de cámara analógica o desechable: preguntas (español, México)](https://open.cait518.cc/photocream-support/camara-analogica-desechable-filtro-preguntas.es-MX.html)
