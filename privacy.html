@@ -121,6 +121,21 @@
     <h2>Photo processing</h2>
     <p>Photos you select for editing are processed locally using on‑device Apple frameworks such as PhotosUI / PhotoKit, Core Image / Metal, Vision and Accelerate / vImage. Reference images used for <strong>Steal‑the‑Look</strong> are analyzed on device to create editable colour recipes. Images are never uploaded by PhotoCream. <strong>On Android</strong>, the same on‑device editing pipeline is built with CameraX, Room and Google's ML Kit (on‑device face detection and portrait segmentation) instead of Apple's frameworks — processing still happens entirely on your device and nothing is ever uploaded.</p>
 
+    <h2 id="face-data">Face data (iOS app)</h2>
+    <p><em>Section updated 2026-11-16. This section applies to the PhotoCream iOS app (iPhone and iPad) on the App Store.</em></p>
+    <h3 id="face-data-collected">1. What face data the app uses</h3>
+    <p>PhotoCream uses Apple&#x27;s on-device Vision framework to find faces in a photo while it is open in the editor, and in the camera preview and the photo you capture while Beauty smoothing is turned on. The only face data the app uses is: (a) the position and size of each face, (b) the positions of the eyes, eyebrows, nose and lips, and (c) a person-outline mask, a black-and-white image that separates people from the background. Items (a) and (b) are geometric values relative to the image. The app does not perform facial recognition or identification, does not create a face template, faceprint or any other biometric identifier, does not compare faces between photos, and does not use Face ID or TrueDepth depth data.</p>
+    <h3 id="face-data-use">2. How face data is used</h3>
+    <p>Face data is used only to render the photo you are editing or capturing: to apply the Enlarge eyes slider in the editor, and, when Beauty smoothing is on, to keep the smoothing on the person&#x27;s skin while leaving the eyes, eyebrows, lips and background untouched. It is not used for advertising, analytics, tracking, profiling, authentication, or any other purpose.</p>
+    <h3 id="face-data-sharing">3. Sharing and third parties</h3>
+    <p>Face data is never uploaded or transmitted off your device, and is never sold, shared with, or disclosed to the developer or any third party. PhotoCream has no developer server and contains no third-party SDKs, ads, analytics or tracking. Its only network use is Apple&#x27;s StoreKit for the optional purchase and restore, and the Privacy, Support and review links you choose to open.</p>
+    <h3 id="face-data-storage">4. Where face data is stored</h3>
+    <p>Face data is computed and held only in your device&#x27;s memory while it is needed: while the photo is open in the editor, or, in the camera, for the current preview and the photo being captured. The live preview detects faces again at most about three times per second, and each result replaces the previous one. Face data is never written to storage and is never saved with your looks, which keep only slider settings such as how strong eye enlarge is. Photos you save are ordinary images in your Photos library; PhotoCream adds no face data to them.</p>
+    <h3 id="face-data-retention">5. How long face data is retained</h3>
+    <p>Face data in the editor is discarded when you close the editor or open another photo. Camera face data is discarded when you turn Beauty smoothing off or leave the camera. No face data remains after the app quits, and the developer never receives or retains any face data.</p>
+    <h3 id="face-data-deletion">6. Deletion</h3>
+    <p>Because face data is never saved, there is no stored face data to delete. You can delete saved looks in the app, and deleting the app removes all of its local data from your device. Photos you saved to the Photos app are kept or removed by you there.</p>
+
     <h2>Camera &amp; Photos permissions</h2>
     <ul>
       <li><strong>Camera</strong> is used only to let you shoot photos with live film looks. Frames are processed on device.</li>
